@@ -1,0 +1,9 @@
+int INDICE = 13, SOMA = 0, K = 0;
+enquanto K < INDICE faça
+{
+K = K + 1; //incremento
+SOMA = SOMA + K; 
+}
+imprimir(SOMA);
+//o valor da variável SOMA ao final do processamento será a soma dos números de 1 a 13, que é igual a:
+//1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 = 91

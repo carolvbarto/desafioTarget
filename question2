@@ -1,0 +1,13 @@
+function fibonacci(numero) {
+  let sequencia = [0, 1];
+  let i = 2;
+  while (sequencia[i - 1] <= numero) {
+    sequencia[i] = sequencia[i - 1] + sequencia[i - 2];
+    i++;
+  }
+  if (sequencia.includes(numero)) {
+    console.log(numero + " pertence à sequência de Fibonacci.");
+  } else {
+    console.log(numero + " não pertence à sequência de Fibonacci.");
+  }
+}
